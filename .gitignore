@@ -106,3 +106,4 @@ dist
 .idea/
 
 generated/
+prisma.yml
