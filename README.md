@@ -3,7 +3,7 @@ Clone coding with Express, Prisma, React and React Native
 
 ## TODO (user stories)
 
-- [] Sign up
+- [x] Sign up
 - [] Log in
 - [] Like/Unlike photos
 - [] Comment photos
