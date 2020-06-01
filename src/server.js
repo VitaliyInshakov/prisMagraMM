@@ -1,4 +1,5 @@
-require("dotenv").config();
+import path from "path";
+require("dotenv").config({ path: path.resolve(__dirname, ".env")});
 import { GraphQLServer } from "graphql-yoga";
 import logger from "morgan";
 import schema from "./schema";
