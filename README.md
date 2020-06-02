@@ -10,7 +10,8 @@ Clone coding with Express, Prisma, React and React Native
 - [x] Comment photos
 - [x] Search by user
 - [x] Search by location
-- [] Follow/Unfollow user
+- [x] Follow user
+- [x] Unfollow user
 - [] Edit my profile
 - [] See the full photo
 - [] Upload photo
