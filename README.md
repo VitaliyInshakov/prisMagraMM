@@ -5,15 +5,15 @@ Clone coding with Express, Prisma, React and React Native
 
 - [x] Sign up
 - [x] Request Secret
-- [] Log in
-- [] Like/Unlike photos
-- [] Comment photos
+- [x] Log in
+- [x] Like/Unlike photos
+- [x] Comment photos
+- [] Search by user
+- [] Search by location
 - [] Follow/Unfollow user
 - [] Edit my profile
 - [] See the full photo
 - [] Upload photo
 - [] Edit photo
-- [] Search by user
-- [] Search by location
 - [] See user profile
 - [] See the feed
