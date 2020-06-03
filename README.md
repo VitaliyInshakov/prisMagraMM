@@ -1,7 +1,7 @@
 # prisMagraMM
 Clone coding with Express, Prisma, React and React Native
 
-## TODO (user stories)
+## TODO API (user stories)
 
 - [x] Sign up
 - [x] Request Secret
@@ -12,9 +12,10 @@ Clone coding with Express, Prisma, React and React Native
 - [x] Search by location
 - [x] Follow user
 - [x] Unfollow user
-- [] Edit my profile
+- [x] Edit my profile
+- [x] See user profile
+- [] See my profile
 - [] See the full photo
 - [] Upload photo
 - [] Edit photo
-- [] See user profile
 - [] See the feed
