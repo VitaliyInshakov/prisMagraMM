@@ -16,6 +16,10 @@ Clone coding with Express, Prisma, React and React Native
 - [x] See user profile
 - [x] See my profile
 - [x] See the full photo
-- [] Upload photo
+- [x] Upload photo
 - [] Edit photo
 - [] See the feed
+- [] See rooms
+- [] See room
+- [] See private message
+- [] Receive message
