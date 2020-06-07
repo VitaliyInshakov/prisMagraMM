@@ -12,6 +12,8 @@ type User {
     comments: [Comment!]!
     rooms: [Room!]!
     loginSecret: String
+    isFollowing: Boolean!
+    isSelf: Boolean!
 }
 
 type Post {
@@ -22,6 +24,7 @@ type Post {
     user: User!
     likes: [Like!]!
     comments: [Comment!]!
+    isLiked: Boolean!
 }
 
 type Like {
