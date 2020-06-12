@@ -17,7 +17,7 @@ Clone coding with Express, Prisma, React and React Native
 - [x] See my profile
 - [x] See the full photo
 - [x] Upload photo
-- [] Edit photo
+- [x] Edit photo
 - [] See the feed
 - [] See rooms
 - [] See room
