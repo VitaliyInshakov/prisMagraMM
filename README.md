@@ -21,5 +21,5 @@ Clone coding with Express, Prisma, React and React Native
 - [x] See the feed
 - [x] See private message
 - [x] See rooms
-- [] See room
+- [x] See room
 - [] Receive message
