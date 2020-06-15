@@ -19,7 +19,7 @@ Clone coding with Express, Prisma, React and React Native
 - [x] Upload photo
 - [x] Edit photo
 - [x] See the feed
-- [] See rooms
+- [x] See private message
+- [x] See rooms
 - [] See room
-- [] See private message
 - [] Receive message
