@@ -107,3 +107,6 @@ dist
 
 generated/
 prisma.yml
+
+# production client
+/build
