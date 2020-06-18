@@ -22,4 +22,4 @@ Clone coding with Express, Prisma, React and React Native
 - [x] See private message
 - [x] See rooms
 - [x] See room
-- [] Receive message
+- [x] Receive message
