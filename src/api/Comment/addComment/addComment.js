@@ -8,7 +8,7 @@ export default {
 
             const { text, postId } = args;
             const { user } = request;
-            const comment = await prisma.createComment({
+            return prisma.createComment({
                 user: {
                     connect: {
                         id: user.id,
@@ -21,7 +21,6 @@ export default {
                 },
                 text,
             });
-            return comment;
         }
     }
 }

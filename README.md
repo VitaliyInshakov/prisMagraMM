@@ -1,7 +1,7 @@
 # prisMagraMM
-Clone coding with Express, Prisma, React and React Native
+Clone coding with Express, GraphQL, Prisma, React and React Native
 
-## TODO API (user stories)
+## TODO GraphQL API (user stories)
 
 - [x] Sign up
 - [x] Request Secret
