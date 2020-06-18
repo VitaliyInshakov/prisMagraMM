@@ -1,18 +1,25 @@
 # prisMagraMM
-Clone coding with Express, Prisma, React and React Native
+Clone coding with Express, GraphQL, Prisma, React and React Native
 
-## TODO (user stories)
+## TODO GraphQL API (user stories)
 
-- [] Sign up
-- [] Log in
-- [] Like/Unlike photos
-- [] Comment photos
-- [] Follow/Unfollow user
-- [] Edit my profile
-- [] See the full photo
-- [] Upload photo
-- [] Edit photo
-- [] Search by user
-- [] Search by location
-- [] See user profile
-- [] See the feed
+- [x] Sign up
+- [x] Request Secret
+- [x] Log in
+- [x] Like/Unlike photos
+- [x] Comment photos
+- [x] Search by user
+- [x] Search by location
+- [x] Follow user
+- [x] Unfollow user
+- [x] Edit my profile
+- [x] See user profile
+- [x] See my profile
+- [x] See the full photo
+- [x] Upload photo
+- [x] Edit photo
+- [x] See the feed
+- [x] See private message
+- [x] See rooms
+- [x] See room
+- [x] Receive message
