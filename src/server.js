@@ -1,10 +1,11 @@
+import "./env";
+
 import { GraphQLServer } from "graphql-yoga";
 import logger from "morgan";
 
 import schema from "./schema";
 import { authenticateJwt } from "./passport";
 import { isLogined } from "./middlewares";
-import "./env";
 
 const PORT = process.env.PORT || 4000;
 

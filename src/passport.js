@@ -1,7 +1,7 @@
 import passport from "passport";
 import { Strategy, ExtractJwt } from "passport-jwt";
 import { prisma } from "../generated/prisma-client";
-
+// console.log(process.env.JWT_SECRET)
 const jwtOptions = {
     jwtFromRequest: ExtractJwt.fromAuthHeaderAsBearerToken(),
     secretOrKey: process.env.JWT_SECRET,
