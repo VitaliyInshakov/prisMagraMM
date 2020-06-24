@@ -8,7 +8,7 @@ export default {
     darkBlueColor: "#003569",
     boxBorder: "1px solid #e6e6e6",
     borderRadius: "4px",
-    whiteBox: `4px;
-    1px solid #e6e6e6;
+    whiteBox: `border-radius:4px;
+    border:1px solid #e6e6e6;
     background-color:white;`
 };
