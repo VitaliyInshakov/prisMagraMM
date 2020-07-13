@@ -2,7 +2,10 @@ import React from "react";
 import { gql } from "apollo-boost";
 import { useQuery } from "react-apollo-hooks";
 import styled from "styled-components";
+import { Helmet } from "react-helmet";
+
 import Loader from "../Components/Loader";
+import PostContainer from "../Components/Post";
 
 const FEED_QUERY = gql`
     {
@@ -46,7 +49,25 @@ export default () => {
 
     return (
         <Wrapper>
+            <Helmet>
+                <title>Feed | Prismagramm</title>
+            </Helmet>
             {loading && <Loader/>}
+            {!loading
+                && data
+                && data.seeFeed
+                && data.seeFeed.map(post =>
+                    <PostContainer
+                        key={post.id}
+                        id={post.id}
+                        user={post.user}
+                        files={post.files}
+                        likeCount={post.likeCount}
+                        isLiked={post.isLiked}
+                        comments={post.comments}
+                        createdAt={post.createdAt}
+                    />)
+            }
         </Wrapper>
     );
 }
