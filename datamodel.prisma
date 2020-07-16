@@ -1,6 +1,6 @@
 type User {
     id: ID! @id
-    avatar: String
+    avatar: String @default(value: "https://orangesupplies.com/wp-content/uploads/2019/08/Author__Placeholder.png")
     username: String! @unique
     email: String! @unique
     firstName: String @default(value: "")
