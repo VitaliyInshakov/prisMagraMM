@@ -39,5 +39,6 @@ export default {
         followersCount: parent => {
             return prisma.usersConnection({ where: { following_none: { id: parent.id}}}).aggregate().count();
         },
+        postsCount: ({ id }) => prisma.postsConnection({ where: { user: { id }}}).aggregate().count(),
     }
 }
