@@ -20,7 +20,7 @@ export default {
                 if (existingLike) {
                     await prisma.deleteManyLikes(filterOptions);
                 } else {
-                    const newLike = await prisma.createLike({
+                    await prisma.createLike({
                         user: {
                             connect: {
                                 id: user.id,

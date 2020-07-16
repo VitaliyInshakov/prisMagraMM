@@ -1,6 +1,6 @@
 type User {
     id: ID! @id
-    avatar: String
+    avatar: String @default(value: "https://orangesupplies.com/wp-content/uploads/2019/08/Author__Placeholder.png")
     username: String! @unique
     email: String! @unique
     firstName: String @default(value: "")
@@ -8,8 +8,6 @@ type User {
     bio: String
     following: [User!]! @relation(name: "FollowRelation")
     followers: [User!]! @relation(name: "FollowRelation")
-    followingCount: Int!
-    followersCount: Int!
     posts: [Post!]! @relation(name: "PostsOfUser", onDelete: CASCADE)
     likes: [Like!]! @relation(name: "LikesOfUser", onDelete: CASCADE)
     comments: [Comment!]! @relation(name: "CommentsOfUser", onDelete: CASCADE)
