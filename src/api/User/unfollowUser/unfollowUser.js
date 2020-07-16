@@ -2,7 +2,7 @@ import {prisma} from "../../../../generated/prisma-client";
 
 export default {
     Mutation: {
-        followUser: async (_, args, { request }) => {
+        unfollowUser: async (_, args, { request }) => {
             isLogined(request);
 
             const { id } = args;
